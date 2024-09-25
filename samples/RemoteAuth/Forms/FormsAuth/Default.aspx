@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="FormsAuth._Default" %>
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="FormsAuth._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -6,6 +6,7 @@
 
     <asp:Panel runat="server" ID="AuthenticatedMessagePanel">
         <asp:Label runat="server" ID="WelcomeBackMessage"></asp:Label>
+        <asp:HyperLink runat="server" NavigateUrl="https://localhost:7117/Home/Privacy">Go to Privacy</asp:HyperLink>
     </asp:Panel>
     
     <asp:Panel runat="Server" ID="AnonymousMessagePanel">
