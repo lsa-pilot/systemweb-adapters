@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsAuth", "FormsAuth\Form
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormsCore8", "FormsCore8\FormsCore8.csproj", "{D2326EEC-B061-4B9A-8484-FA462BF306FF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormsAuthCore", "FormsAuthCore\FormsAuthCore.csproj", "{F7F9B1B9-0B7B-4C81-8286-E57A3D1B9BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D2326EEC-B061-4B9A-8484-FA462BF306FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2326EEC-B061-4B9A-8484-FA462BF306FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2326EEC-B061-4B9A-8484-FA462BF306FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F9B1B9-0B7B-4C81-8286-E57A3D1B9BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F9B1B9-0B7B-4C81-8286-E57A3D1B9BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F9B1B9-0B7B-4C81-8286-E57A3D1B9BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F9B1B9-0B7B-4C81-8286-E57A3D1B9BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
